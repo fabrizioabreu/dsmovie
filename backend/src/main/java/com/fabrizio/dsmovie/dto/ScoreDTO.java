@@ -2,19 +2,19 @@ package com.fabrizio.dsmovie.dto;
 
 public class ScoreDTO {
 
-	private Long moveId;
+	private Long movieId;
 	private String email;
 	private Double score;
 
 	public ScoreDTO() {
 	}
 
-	public Long getMoveId() {
-		return moveId;
+	public Long getMovieId() {
+		return movieId;
 	}
 
-	public void setMoveId(Long moveId) {
-		this.moveId = moveId;
+	public void setMovieId(Long movieId) {
+		this.movieId = movieId;
 	}
 
 	public String getEmail() {
